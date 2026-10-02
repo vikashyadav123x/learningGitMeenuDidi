@@ -1,0 +1,14 @@
+an online examination system uses:
+http://127.0.0.1:8000/exam/?subject=Python&duration=60
+write a django view that 
+reads both query parameter
+displays subject:Python | Duration:60 Minutes.
+Uses request.GET
+
+
+online exam portal
+portal has these req 
+/exam/Pythoon/ shows exam name
+/student/2024 show student id
+/result/?roll=202&semester=8 display both value
+/hallticket/123456/ should work only if hall ticket contains exactly 6 digits
